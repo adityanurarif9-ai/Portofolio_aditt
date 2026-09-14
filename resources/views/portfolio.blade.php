@@ -330,16 +330,27 @@
     </div>
     
     <!-- Bagian Teks Project -->
-    <div class="p-8">
-        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">Bar Bar Es Duren</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6">Aplikasi web e-commerce berbasis Laravel lengkap dengan integrasi gateway pembayaran Midtrans untuk proses checkout yang mulus.</p>
-        <div class="flex flex-wrap gap-2">
-            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">Laravel</span>
-            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">Midtrans</span>
-            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">MySQL</span>
-        </div>
+<div class="p-8">
+    
+    <!-- INI BAGIAN YANG DIUBAH: Membungkus teks dengan tag <a> -->
+    <h3 class="text-2xl font-bold text-white mb-3 transition-colors">
+        <a href="{{ url('/durian-barbar') }}" class="hover:text-cyan-400 hover:underline">
+            Bar Bar Es Duren
+        </a>
+    </h3>
+    
+    <p class="text-slate-400 text-sm leading-relaxed mb-6">Aplikasi web e-commerce berbasis Laravel lengkap dengan integrasi gateway pembayaran Midtrans untuk proses checkout yang mulus.</p>
+    
+    <!-- Tag Teknologi -->
+    <div class="flex flex-wrap gap-2">
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">Laravel</span>
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">Midtrans</span>
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">MySQL</span>
     </div>
 </div>
+</div>
+
+
 
                 <!-- Project 2: PPDB UI Mockup -->
                 <div class="glass-card rounded-3xl overflow-hidden group reveal">
@@ -355,16 +366,25 @@
         <div class="absolute top-4 right-4 bg-cyan-500/80 text-white text-xs font-bold px-3 py-1 rounded-full backdrop-blur-md z-10 shadow-lg">Web App</div>
     </div>
     
-    <!-- Bagian Teks Project -->
-    <div class="p-8">
-        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">PPDB SMK Telkom Purwokerto</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-6">Desain dan antarmuka web Penerimaan Peserta Didik Baru (PPDB) interaktif lengkap dengan formulir pendaftaran multi-step, tabel nilai, dan verifikasi dokumen.</p>
-        <div class="flex flex-wrap gap-2">
-            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">HTML5</span>
-            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">CSS3 / Tailwind</span>
-            <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">JavaScript</span>
-        </div>
+   <!-- Bagian Teks Project PPDB -->
+<div class="p-8">
+    
+    <!-- INI BAGIAN YANG DIUBAH -->
+    <h3 class="text-2xl font-bold text-white mb-3 transition-colors">
+        <a href="{{ url('/ppdb-smk') }}" class="hover:text-cyan-400 hover:underline">
+            PPDB SMK Telkom Purwokerto
+        </a>
+    </h3>
+    
+    <p class="text-slate-400 text-sm leading-relaxed mb-6">Desain dan antarmuka web Penerimaan Peserta Didik Baru (PPDB) interaktif lengkap dengan formulir pendaftaran multi-step, tabel nilai, dan verifikasi dokumen.</p>
+    
+    <!-- Tag Teknologi -->
+    <div class="flex flex-wrap gap-2">
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">HTML5</span>
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">CSS3/Tailwind</span>
+        <span class="text-xs font-semibold px-2.5 py-1 bg-slate-800 text-cyan-400 rounded-md border border-slate-700">JavaScript</span>
     </div>
+</div>
 </div>
                 <!-- Project 3: GDevelop Game -->
                 <div class="glass-card rounded-3xl overflow-hidden group reveal">
